@@ -17,7 +17,7 @@ get_past_krw <- function() {
 
 get_krw <- function() {
   krw <- set_data("KRW=X")[, .(ym, currency = adj)]
-  krw <- rbind(fireR::krw_past, krw)
+  krw <- rbind(firer::krw_past, krw)
   return(krw)
 }
 
