@@ -3,7 +3,6 @@
 
 ggi <- function(..., wt, rfr = 0.0065, cum = T, sdate, edate) {
   
-  dots <- list(spy, tlt)
   dots <- list(...)
   m <- length(dots)
   if (missing(wt)) wt <- rep(1./m, m)
