@@ -1,4 +1,3 @@
-useDynLib(firer, .registration=TRUE)
 importFrom(Rcpp, evalCpp)
 import(data.table)
 import(RCurl)
